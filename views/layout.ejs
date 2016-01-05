@@ -28,12 +28,18 @@
             + Use a different or additional preprocessor, like SASS, SCSS or Stylus
     -->
 
+
     <!--STYLES-->
     <link rel="stylesheet" href="/styles/importer.css">
     <!--STYLES END-->
+    
+    <!--SCRIPTS-->
+    <script src="/js/dependencies/sails.io.js"></script>
+    <!--SCRIPTS END-->
+
   </head>
 
-  <body>
+  <body ng-app ng-controller="taskController">
     <%- body %>
 
 
@@ -87,8 +93,6 @@
 
     -->
 
-    <!--SCRIPTS-->
-    <script src="/js/dependencies/sails.io.js"></script>
-    <!--SCRIPTS END-->
+
   </body>
 </html>
